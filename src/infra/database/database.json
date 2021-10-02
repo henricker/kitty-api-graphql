@@ -1,0 +1,77 @@
+{
+  "owner": [
+    {
+      "id": 1,
+      "name": "Henricker Vieira",
+      "age": 21
+    },
+    {
+      "id": 2,
+      "name": "Clarck Quent",
+      "age": 70
+    },
+    {
+      "id": 3,
+      "name": "Graph QL",
+      "age": 10
+    },
+    {
+      "id": 4,
+      "name": "Mr. Burns",
+      "age": 100
+    },
+    {
+      "id": 5,
+      "name": "Mano Brown",
+      "age": 65
+    },
+    {
+      "id": 6,
+      "name": "Henrique f1",
+      "age": 21
+    },
+    {
+      "id": 7,
+      "name": "Henrique Vieira",
+      "age": 21
+    }
+  ],
+  "kitty": [
+    {
+      "id": 1,
+      "name": "gatim",
+      "age": 3,
+      "owner": 1
+    },
+    {
+      "id": 2,
+      "name": "belzebul",
+      "age": 1000,
+      "owner": 4
+    },
+    {
+      "id": 3,
+      "name": "Fluffy Berry",
+      "age": 5,
+      "owner": 1
+    },
+    {
+      "id": 4,
+      "name": "Little Strawberry",
+      "age": 1,
+      "owner": 2
+    },
+    {
+      "id": 5,
+      "name": "Sphinx nucked",
+      "age": 8,
+      "owner": 3
+    },
+    {
+      "name": "moon",
+      "age": 20,
+      "owner": 1,
+      "id": 6
+    }
+  ]
+}

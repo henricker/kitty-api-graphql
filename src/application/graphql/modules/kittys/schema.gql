@@ -1,0 +1,22 @@
+type Kitty {
+  id: ID!
+  name: String!
+  age: Int!
+  owner: Owner!
+}
+
+input kittyInput {
+  name: String!
+  age: Int!
+  owner: Int!
+}
+
+type Query {
+  kittys: [Kitty!]!
+  kitty(id: ID!): Kitty!
+}
+
+type Mutation {
+  createKitty(data: kittyInput): Kitty!
+  deleteKitty(id: ID!): Boolean
+}
